@@ -111,7 +111,15 @@ function Board() {
                                       ...provided.draggableProps.style,
                                     }}
                                   >
-                                    {item.content}
+                                    <h2 className='text-xl'>{item.content}</h2>
+                                    <p className='text-sm'>
+                                      Lorem ipsum dolor, sit amet consectetur
+                                      adipisicing elit.
+                                    </p>
+                                    <div className='flex flex-row'>
+                                      <div className='bg-green-600 w-[28px] h-[8px] mt-1 mr-2 rounded-full'></div>
+                                      <div className='bg-blue-600 w-[28px] h-[8px] mt-1 mr-2 rounded-full'></div>
+                                    </div>
                                   </div>
                                 );
                               }}
